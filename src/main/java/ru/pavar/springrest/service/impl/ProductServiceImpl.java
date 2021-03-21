@@ -38,7 +38,7 @@ public class ProductServiceImpl implements IProductService {
     }
 
     @Override
-    public Product getByArticleNumber(int articleNumber) {
+    public Product get(int articleNumber) {
         return productRepository.findById(articleNumber).get();
     }
 
