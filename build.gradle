@@ -16,9 +16,8 @@ repositories {
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.16'
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
-    implementation group: 'org.springframework.hateoas', name: 'spring-hateoas', version: '1.2.5'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-rest', version: '2.4.4'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
     providedRuntime group: 'com.h2database', name: 'h2', version: '1.4.200'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'

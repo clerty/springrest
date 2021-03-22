@@ -1,7 +1,10 @@
 package ru.pavar.springrest.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import ru.pavar.springrest.model.Product;
 
-public interface ProductRepository extends JpaRepository<Product, Integer> {
+@RepositoryRestResource(collectionResourceRel = "products", path = "products")
+public interface ProductRepository extends PagingAndSortingRepository<Product, Integer> {
+
 }

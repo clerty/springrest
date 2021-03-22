@@ -1,14 +1,8 @@
-ru/pavar/springrest/service/impl/ProductServiceImpl.java
- ru.pavar.springrest.service.impl.ProductServiceImpl
-ru/pavar/springrest/ServletInitializer.java
- ru.pavar.springrest.ServletInitializer
-ru/pavar/springrest/service/IProductService.java
- ru.pavar.springrest.service.IProductService
-ru/pavar/springrest/SpringrestApplication.java
- ru.pavar.springrest.SpringrestApplication
 ru/pavar/springrest/model/Product.java
  ru.pavar.springrest.model.Product
+ru/pavar/springrest/ServletInitializer.java
+ ru.pavar.springrest.ServletInitializer
+ru/pavar/springrest/SpringrestApplication.java
+ ru.pavar.springrest.SpringrestApplication
 ru/pavar/springrest/repository/ProductRepository.java
  ru.pavar.springrest.repository.ProductRepository
-ru/pavar/springrest/controller/ProductController.java
- ru.pavar.springrest.controller.ProductController
